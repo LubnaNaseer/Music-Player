@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(rgb(103, 243, 243),pink , rgb(247, 126, 247) ) ;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#container{
+    /* border: 2px solid; */
+    margin: 0px 80px;
+    width: 300px;
+    height: 600px;
+    border-radius: 10%;
+    padding: 0px 100px;
+    background-color:rgb(252, 236, 246);
+}
+#container:hover{
+    box-shadow: 1px 0 19px rgb(112, 47, 233);
+}
+p,h1,h2{
+    text-align: center;
+
+}
+.music{
+    border: 2px solid rgb(240, 91, 173);
+    margin-left:63px ;
+}
+.music:hover{
+    box-shadow:1px 0 19px blueviolet;
+}
+
+#container .music{
+     width: 150px; 
+     height: 150px;
+    border-radius: 50%;
+}
+#o1{
+    margin-left: 100px;
+    margin-top: 30px;
+   
+}
+.wave{
+
+margin-left: 300px;
+margin-top: 0px;
+width: 30px;
+
+} 
+audio{
+    margin-top: 50px;
+}
+ .wave2{
+    
+    width: 20px;
+    /* margin-right: 50px;  */
+    margin-bottom: -15px;
+    display: inline-block;
+}
+.lu{
+    /* border:2px solid ; */
+    position: absolute;
+    bottom: 300px;
+    right: 400px;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+    width: 300px;
+    /* margin-left: 800px;
+    margin-bottom: 500px; */
+} 
